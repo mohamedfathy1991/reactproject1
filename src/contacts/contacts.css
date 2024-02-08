@@ -1,0 +1,24 @@
+.contact-star-wrapper::before,
+.contact-star-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  height: 3px;
+  background-color: black;
+}
+.contact-star-wrapper::before {
+  left:calc(50% - 120px);
+}
+
+.contact-star-wrapper::after {
+  right: calc(50% - 120px);
+}
+.form{
+      color: green;
+}
+
+#namelabel,#agelabel,#emaillabel,#passwordemail{
+      transition: .5s;
+
+}

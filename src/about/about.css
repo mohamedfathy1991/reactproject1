@@ -1,0 +1,25 @@
+
+
+.about{
+  background-color: #1abc9c;;
+}
+.about-star-wrapper {
+  position: relative;
+}
+
+.about-star-wrapper::before,
+.about-star-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  height: 3px;
+  background-color: white;
+}
+.about-star-wrapper::before {
+  left:calc(50% - 120px);
+}
+
+.about-star-wrapper::after {
+  right: calc(50% - 120px);
+}
