@@ -1,9 +1,10 @@
 {
   "name": "firstframework",
-  "homepage": "https://mohamedfathy1991.github.io/reactproject1",
  
 
   "version": "0.1.0",
+  "homepage": "https://mohamedfathy1991.github.io/reactproject1",
+
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
